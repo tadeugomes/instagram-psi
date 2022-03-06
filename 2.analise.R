@@ -151,7 +151,7 @@ kwic(tokens(psi.corpus), '@desiderata_ilustrata', window = 7)
 cat(as.character(psi.corpus[301]))
 
 
-##################### Clusterizacao de texto com LDA doTopic Models LDA  ##########
+##################### Clusterizacao de texto com LDA do Topic Models ##########
 
 
 psi_model <- convert(psi.dfm3, to = "topicmodels") %>% 
